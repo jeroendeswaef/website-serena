@@ -1,2 +1,20 @@
 auto: true
-title: jjj
+
+
+locales:
+  en:
+    stylesheet_dir: stylesheets
+    javascript_dir: javascripts
+    image_dir: /images
+    translation: translation
+    reviewing: reviewing
+    proofreading: proofreading
+    transcription: transcription
+  it:
+    stylesheet_dir: ../stylesheets
+    javascript_dir: ../javascripts
+    image_dir: ../images
+    translation: traduzione
+    reviewing: revisione
+    proofreading: proofreading
+    transcription: trascrizione

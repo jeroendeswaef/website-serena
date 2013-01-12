@@ -997,14 +997,24 @@ footer {
   }
 }
 
-.chooseLanguage {
+#chooseLanguage {
+	position: fixed;
+	right: 1em;
+	top: 1em;
+	z-index: 100;
+}
+
+#chooseLanguage ul {
 	float: right;
 }
 
-.chooseLanguage li {
+#chooseLanguage li {
 	list-style: none;
 	float: left;
         margin-left: 1em;
+}
+#chooseLanguage img {
+        border: 1px solid #EEEEEE;
 }
 .languageArrow {
 	float: right;
