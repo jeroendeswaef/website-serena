@@ -10,6 +10,42 @@ locales:
     reviewing: reviewing
     proofreading: proofreading
     transcription: transcription
+    home: home
+    services: services
+    contact: contact
+    about: about
+    slogan: I'm working fulltime as freelance translator since 2008 from various Romance languages and English to Italian.
+    contact_intro: Feel free to contact me or to connect through the following channels
+    fields_of_specialization: fields of specialization 
+    commercials: Commercials
+    commerce: Commerce
+    economics_and_finance: Economics and Finance
+    law_and_legal: Law and Legal
+    it_and_web_content: IT and Web content
+    public_sector: Public Sector
+    civil_and_mechanical_engineering: Civil and Mechanical Engineering
+    transport: Transport
+    journalism: Journalism
+    tourism_and_travel: Tourism and Travel
+    fashion_and_apparel: Fashion and Apparel
+    food_and_oenology: Food and Oenology
+    culinary_arts: Culinary Arts
+    literature: literature
+
+    types_of_translations: Types of translations
+    company_letters: Company letters
+    minutes_of_meetings: Minutes of Meetings
+    business_contracts: Business contracts
+    by_laws: By-laws and Articles of Associations
+    company_brochures: Company brochures
+    touristic_brochures_and_websites: Touristic brochures and websites
+    marketing_campain_scripts: Marketing campaign scripts
+    certificates_and_letters_of_request: Certificates and letters of request
+    articles_and_press_releases: Articles and press releases
+    industrial_automation_technical_manuals: Industrial automation technical manuals
+    user_manuals_and_installation_instructions: User Manuals and Installation Instructions
+    product_data_sheets: Product Data Sheets
+    novels_and_comic_books: Novels and comic books
   it:
     stylesheet_dir: ../stylesheets
     javascript_dir: ../javascripts
@@ -18,3 +54,39 @@ locales:
     reviewing: revisione
     proofreading: proofreading
     transcription: trascrizione
+    home: home
+    services: servizi
+    contact: contatti
+    about: chi sono 
+    slogan: Dal 2008 lavoro a tempo pieno come traduttrice indipendente da varie lingue romanze e dall'inglese verso l'italiano.
+    contact_intro: Sarò felice di rispondere alle richieste di contatto attraverso i seguenti canali 
+    fields_of_specialization: fields of specialization 
+    commercials: Commercials
+    commerce: Commerce
+    economics_and_finance: Economics and Finance
+    law_and_legal: Law and Legal
+    it_and_web_content: IT and Web content
+    public_sector: Public Sector
+    civil_and_mechanical_engineering: Civil and Mechanical Engineering
+    transport: Transport
+    journalism: Journalism
+    tourism_and_travel: Tourism and Travel
+    fashion_and_apparel: Fashion and Apparel
+    food_and_oenology: Food and Oenology
+    culinary_arts: Culinary Arts
+    literature: literature
+
+    types_of_translations: Types of translations
+    company_letters: Company letters
+    minutes_of_meetings: Minutes of Meetings
+    business_contracts: Business contracts
+    by_laws: By-laws and Articles of Associations
+    company_brochures: Company brochures
+    touristic_brochures_and_websites: Touristic brochures and websites
+    marketing_campain_scripts: Marketing campaign scripts
+    certificates_and_letters_of_request: Certificates and letters of request
+    articles_and_press_releases: Articles and press releases
+    industrial_automation_technical_manuals: Industrial automation technical manuals
+    user_manuals_and_installation_instructions: User Manuals and Installation Instructions
+    product_data_sheets: Product Data Sheets
+    novels_and_comic_books: Novels and comic books

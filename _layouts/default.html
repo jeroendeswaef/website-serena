@@ -10,8 +10,43 @@
         <ul></ul>
       </nav>
       <section>
+	<div class="subsection">
+            <img id="pass" src="{{ site.locales[page.locale].image_dir }}/pass.png" alt="pass photo" />
+	    <div id="slogan">{{ site.locales[page.locale].slogan }}</div>
+        </div>
         <h3>{{ page.language_combinations }}</h3>
-	<table>
+        <div class="subsection">	
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/fr.png" class="srcFlag" alt="flag france" />
+              <div class="srcLangDesc">{{ page.french }}</div>
+	    </div> 
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/es.png" class="srcFlag" alt="flag spain" />
+              <div class="srcLangDesc">{{ page.spanish }}</div>
+	    </div> 
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/br.png" class="srcFlag" alt="flag brazil" />
+              <div class="srcLangDesc">{{ page.portuguese }}</div>
+	    </div> 
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/pt.png" class="srcFlag" alt="flag portugal" />
+              <div class="srcLangDesc">{{ page.portuguese }}</div>
+	    </div> 
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/uk.png" class="srcFlag" alt="flag uk" />
+              <div class="srcLangDesc">{{ page.english }}</div>
+	    </div> 
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/us.png" class="srcFlag" alt="flag us" />
+              <div class="srcLangDesc">{{ page.english }}</div>
+	    </div> 
+            <div class="arrow">&rarr;</div>
+            <div class="srcLang">
+              <img src="{{ site.locales[page.locale].image_dir }}/rf/it.png" class="srcFlag" alt="flag italy" />
+              <div class="srcLangDesc">{{ page.italian }}</div>
+	    </div> 
+        </div>
+	<!--<table>
 		<tr>
 			<td>{{ page.english }} <div class="languageArrow">&rarr;</div></td>
 			<td>{{ page.italian }}</td>
@@ -28,9 +63,7 @@
 			<td>{{ page.spanish }} <div class="languageArrow">&rarr;</div></td>
 			<td>{{ page.italian }}</td>
 		</tr>
-	</table>
-	<h3>{{ page.rates }}</h3>
-	<a href="{{ page.rates_pdf }}">{{ page.download_rates }}</a>
+	</table>-->
  <!-- {{ 'Hello world' | replace: 'Hello', 'Hi' }} -->
       </section>
       <footer>
