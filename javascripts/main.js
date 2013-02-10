@@ -27,9 +27,9 @@ $(document).ready(function(){
     event.preventDefault();    
   });
   
-  sectionHeight();
+  /*sectionHeight();
   
-  $('img').load(sectionHeight);
+  $('img').load(sectionHeight);*/
 });
 
 fixScale = function(doc) {

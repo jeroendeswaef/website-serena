@@ -9,7 +9,7 @@
       <nav>
         <ul></ul>
       </nav>
-      <section>
+      <section class="mainSection">
 	<div class="subsection">
             <img id="pass" src="{{ site.locales[page.locale].image_dir }}/pass.png" alt="pass photo" />
 	    <div id="slogan">{{ site.locales[page.locale].slogan }}</div>
@@ -45,7 +45,14 @@
               <img src="{{ site.locales[page.locale].image_dir }}/rf/it.png" class="srcFlag" alt="flag italy" />
               <div class="srcLangDesc">{{ page.italian }}</div>
 	    </div> 
+
         </div>
+        {% if page.locale == "en" %}
+         <div class="subsection">
+        <h3>{{ site.locales[page.locale].services }}</h3>
+        {{ content }}
+      </div>
+      {% endif %}
       </section>
       <footer>
       </footer>
