@@ -1024,7 +1024,7 @@ footer {
         margin-bottom: 2em;
 	float: left;
 }
-.subsection h3:first-letter {
+.subsection h3:first-letter, .mainSection h3:first-letter {
   text-transform: capitalize;
 }
 .srcFlag {
